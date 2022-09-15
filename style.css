@@ -101,6 +101,37 @@ input {
   background-color: #fff;
 }
 
+@media (min-width: 576px) {
+  .section {
+    max-width: 550px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section {
+    max-width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .section {
+    max-width: 950px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .section {
+    max-width: 1150px;
+  }
+}
+
+
+@media (min-width: 1400px) {
+  .section {
+    max-width: 1350px;
+  }
+}
+
 /* Start Header */
 
 header {
@@ -421,7 +452,7 @@ footer .mid-side ul {
 }
 
 .right-side img {
-  fill: #fff;]
+  fill: #fff;
   background-color: #fff;
 }
 
